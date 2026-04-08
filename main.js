@@ -6,6 +6,8 @@ const items = document.querySelectorAll('.slider .carousel .item');
 const inp = document.querySelector('.slider .inp');
 
 let cur = 0;
+let bool = false; 
+let mouseX = 0;
 
 slider.onmousedown = e => {
     if (e.button == 0) {
